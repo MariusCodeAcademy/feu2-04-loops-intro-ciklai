@@ -28,6 +28,14 @@
 9. Surasyti i kintamaji myString visus skaicius nuo -10 iki 35 atskirtus kableliu ir tarpu
     pvz, -10, -9, -8, ....
 
+<!-- psiaudo kodas 
+1. susikuriu kintamaji myString prisilyginti tusciom kabutem
+2. sukurti cikla kuris sukasi su skaiciais nuo -10 iki 35
+3. sukant cikla kiekviena reiksme pridedu prie myString ir pridedu ", "
+4. po ciklu atspausdinti myString
+5. extra paskutinis elementas neturetu tureti kablelcio ir tarpelio.
+ -->
+
 10. Sudeti skaicius nuo 10 iki 20. 
     1.  sudedant atspausdinti kievieno zingsnio informacija
       pvz "Ciklo numeris 1, prie 0 pridedu 10 ir gaunu 10"
