@@ -41,4 +41,13 @@ while (i <= 100) {
 }
 
 console.log('ciklu', cikluSk);
+
+
 // 3. atspausdinti skaicius nuo 50 iki 24
+
+i = 50;
+
+do {
+  console.log(i);
+  i--;
+} while(i > 24)
