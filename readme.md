@@ -36,7 +36,7 @@
       ....
     2. atspausdinti galutini rezultata
 
-11. sukuriam kintamji aukstis = 5. Panaudojus kintamji aukstis nupiesti eglute su tiek liniju kiek yra aukstis. (naudojant repeat() metoda ir be repeat metodo)
+11. sukuriam kintamji aukstis = 5. Panaudojus kintamji aukstis nupiesti eglute su tiek liniju kiek yra aukstis. (naudojant repeat() metoda ir be repeat metodo).
 ```
          +
         +++
@@ -44,3 +44,8 @@
       +++++++
      +++++++++
 ```
+
+12. atspausdinti consoleje 3 random reiksmes su 2 skaiciais po kablelio li taguose
+    <li>2.48</li>
+    <li>5.82</li>
+    <li>9.40</li>

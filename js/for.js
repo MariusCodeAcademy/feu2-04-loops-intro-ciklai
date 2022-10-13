@@ -41,14 +41,26 @@ for (let i = 0; i < 15; i++) {
   // console.log(i, 'rand ==>', rand);
   total = total + rand;
 }
-console.log('total ===', total);
+// console.log('total ===', total);
 let avg = total / 15
-console.log('avg ===', +avg.toFixed(2));
+// console.log('avg ===', +avg.toFixed(2));
 // 4.1 atspausdinti verciu vidurki
 
 // 5. atspausdinti nuo 47 iki 68 visus lyginius skaicius
-
+for (let i = 47; i <= 68; i++) {
+  if (i % 2 === 0) {
+    // console.log(i);
+  } 
+  
+}
 // 6. sudeti visus skaicius nuo 0 iki 10, atspusdinti rezultata
+total = 0
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+  total = total + i
+  console.log('total ===', total);
+}
+console.log('TOTAL total ===', total);
 
 // 7. su while loop. parasyti cikla kuris meta kauliukus ir galimos reiksmes yra nuo 2 iki 12.
 // 7.1 kiek kartu kompiuteris mes kauliukus kol ismes 12?
