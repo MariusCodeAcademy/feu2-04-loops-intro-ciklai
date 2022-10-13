@@ -30,10 +30,14 @@ for (let i = 0; i < 100; i += 3) {
 
 // 3. atspausdinti skaicius nuo 50 iki 24
 for (let i = 50; i > 24; i--) {
-  console.log(`<li>item no ${i}</li>`);
+  // console.log(`<li>item no ${i}</li>`);
 }
 
 // 4. atspausdinti 15 random verciu nuo 1 iki 10
+for (let i = 0; i < 15; i++) {
+  let rand = Math.trunc(Math.random() * 10) + 1;
+  console.log(i, 'rand ==>', rand);
+}
 // 4.1 atspausdinti verciu vidurki
 
 // 5. atspausdinti nuo 47 iki 68 visus lyginius skaicius
