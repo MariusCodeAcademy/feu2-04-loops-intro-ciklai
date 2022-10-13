@@ -21,7 +21,7 @@ for (let i = 14; i <= 35; i++) {
   // console.log(i);
   str = str + `${i}, `;
 }
-console.log(str);
+// console.log(str);
 
 // 2. atspausdinti skaicius nuo 0 iki 100, kas trecia skaiciu
 for (let i = 0; i < 100; i += 3) {
@@ -38,9 +38,12 @@ for (let i = 50; i > 24; i--) {
 let total = 0;
 for (let i = 0; i < 15; i++) {
   let rand = Math.trunc(Math.random() * 10) + 1;
-  console.log(i, 'rand ==>', rand);
+  // console.log(i, 'rand ==>', rand);
   total = total + rand;
 }
+console.log('total ===', total);
+let avg = total / 15
+console.log('avg ===', +avg.toFixed(2));
 // 4.1 atspausdinti verciu vidurki
 
 // 5. atspausdinti nuo 47 iki 68 visus lyginius skaicius
