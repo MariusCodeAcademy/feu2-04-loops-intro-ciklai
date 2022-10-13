@@ -34,9 +34,12 @@ for (let i = 50; i > 24; i--) {
 }
 
 // 4. atspausdinti 15 random verciu nuo 1 iki 10
+// debugger;
+let total = 0;
 for (let i = 0; i < 15; i++) {
   let rand = Math.trunc(Math.random() * 10) + 1;
   console.log(i, 'rand ==>', rand);
+  total = total + rand;
 }
 // 4.1 atspausdinti verciu vidurki
 
