@@ -35,3 +35,12 @@
       pvz "Ciklo numeris 3, prie 21 pridedu 12 ir gaunu 33"
       ....
     2. atspausdinti galutini rezultata
+
+11. sukuriam kintamji aukstis = 5. Panaudojus kintamji aukstis nupiesti eglute su tiek liniju kiek yra aukstis. (naudojant repeat() metoda ir be repeat metodo)
+```
+         +
+        +++
+       +++++
+      +++++++
+     +++++++++
+```
