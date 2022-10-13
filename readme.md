@@ -49,3 +49,19 @@
     <li>2.48</li>
     <li>5.82</li>
     <li>9.40</li>
+
+13. atspausdinti konsoleje skaicius nuo 12 iki 24 padaugintus is 3
+
+14. atspausdinti konsoleje skaicius nuo 3 iki 25, jei skaicius lyginis prirasyti prie jo zodeli 'lyginis' pvz 
+3
+4 lyginis
+5 
+6 lyginis
+....
+14.1 prideti dar prie skaiciu kurie yra 3 kartotiniai 'triju kartotinis'
+pvz 
+3 triju kartotinis
+4 lyginis
+5 triju kartotinis
+6 lyginis
+....
