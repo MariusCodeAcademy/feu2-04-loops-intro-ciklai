@@ -12,3 +12,12 @@
 5. atspausdinti nuo 47 iki 68 visus lyginius skaicius
 
 6. sudeti visus skaicius nuo 0 iki 10, atspusdinti rezultata
+
+7. sugeneruoti stringa kuris turetu tokia struktura:
+   ```html
+  <ul>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+  </ul>
+   ```
