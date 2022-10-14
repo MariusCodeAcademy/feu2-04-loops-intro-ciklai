@@ -76,8 +76,49 @@ for (let i = 0; i <= 160; i = i + 1) {
     // radauKartotiniu = radauKartotiniu + 1;
     // radauKartotiniu += 1;
     radauKartotiniu++;
-    console.log(`skaicius ${i} yra 4 kartotinis`);
+    // console.log(`skaicius ${i} yra 4 kartotinis`);
   }
 }
-console.log('radauKartotiniu ===', radauKartotiniu);
+// console.log('radauKartotiniu ===', radauKartotiniu);
 // 4 pabaiga
+
+// 9. Surasyti i kintamaji myString visus skaicius nuo -10 iki 35 atskirtus kableliu ir tarpu
+//     pvz, -10, -9, -8, ....
+
+//  psiaudo kodas
+// 5. extra paskutinis elementas neturetu tureti kablelcio ir tarpelio.
+
+// 1. susikuriu kintamaji myString prisilyginti tusciom kabutem
+let myString = '';
+
+// 2. sukurti cikla kuris sukasi su skaiciais nuo -10 iki 35
+for (let i = -10; i <= 35; i++) {
+  if (i === 35) {
+    myString = myString + `${i}.`;
+  } else {
+    // 3. sukant cikla kiekviena reiksme pridedu prie myString ir pridedu ", "
+    myString = myString + `${i}, `;
+    // myString += `${i}, `;
+  }
+}
+// 4. po ciklu atspausdinti myString
+// console.log('myString ===', myString);
+
+// Sudeti skaicius nuo 10 iki 20.
+
+/* 
+Psiaudo kodas, algoritmas
+1. kintamojo sumai
+2. ciklo kuris dides nuo 10 iki 20
+3. deti einamaja verte prie kintamojo
+3. atvaizduoti rezultata
+*/
+let totalSk10 = 0;
+let seka = 0;
+for (let i = 10; i <= 20; i++) {
+  seka++;
+  console.log(`Ciklo numeris ${seka}, prie ${totalSk10} pridedu ${i} ir gaunu ${totalSk10 + i}`);
+  // totalSk10 = totalSk10 + i;
+  totalSk10 += i;
+}
+console.log('totalSk10 ===', totalSk10);

@@ -15,11 +15,15 @@ poZingsni = poZingsni + `${b}, `;
 poZingsni = poZingsni + `${c}, `;
 poZingsni += `${d}.`;
 
-console.log('poZingsni ===', poZingsni);
+// console.log('poZingsni ===', poZingsni);
 
 let num1 = 5;
 
 num1 = num1 + 5;
 num1 += 5;
 
-console.log('num1 ===', num1);
+// console.log('num1 ===', num1);
+
+let customer = 'Mike';
+let sakinys = `Siandien ${customer.toUpperCase()} pirko bilietus i Varsuva`;
+console.log('sakinys ===', sakinys);
